@@ -1,0 +1,71 @@
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+   background-image: url(./background_image.jpg);
+}
+
+header{
+  color: white;
+  
+  text-align: center;
+}
+h1{
+  font-weight: 900;  
+}
+main {
+  color: white;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+
+    text-align: center;
+    width: 100%;
+    margin: 2rem;
+    /* height: 50%; */
+    background-color: rgb(37, 33, 27, 0.4); /*arka plandaki hafif siyah kısım icin*/
+  }
+
+section{
+  /*display:flex;
+  align-items:center;
+  justify-content:center;*/
+    text-align: left;
+    padding: 40px;
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0, 0.7); /*formun arka plan seffaf fonu*/
+    
+}
+.genis{
+  /* color: black; */
+  width: 100%;
+  height: 50%;
+}
+
+.send{
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+}
+.send input{
+  /* border-top-left-radius: 50%; */
+ 
+  /* border-color: red; */
+  border: 2px solid red;
+   border-radius: 50px;
+  width: 8rem;
+  height: 4rem;
+    background-color: red;
+    color: white;
+    font-size:x-large;
+    padding: 1rem;
+    margin: 1rem;
+}
+#isim, #yas, #email, #content{
+  height: 2rem;
+}

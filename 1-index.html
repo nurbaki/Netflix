@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="./3-style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 >
+       NET<span style="color: red">FLIX</span>
+       </h1>
+        <p>Thank you for signing up at Netflix. Tell us more about yourself</p>
+
+   </header>
+    <main>
+    <section> 
+      <form action="./2-results.html" method="get">
+        <div>
+            <label for="isim">Name</label><br>
+            <input style="color: black" class="genis" type="text" id="isim" name="isim1" value="" 
+            placeholder="Enter your name" required/><br><br>
+        <div>
+        <div>
+                <label for="yas">Age</label><br>
+                <input style="color: black" class="genis" type="number" id="yas" name="yaş1" value=""
+                 max="100" step="1" placeholder="Age"/><br><br>
+        </div>
+        <div>
+            <label for="email">Email:</label><br>
+            <input style="color: black" class="genis" type="mail" id="email" name="email" placeholder="Enter your email"><br><br>
+        
+        </div>
+        <div>
+            <label for="content">Content Type</label><br>
+            <select style="color: black" class="genis" name="content" id="content">
+                <option value="Series"> Series </option>
+                <option value="Film"> Film </option>
+                <option value="Animation"> Animation </option>
+            </select><br><br>
+        </div>
+
+        <div>
+            <label for="">Movie Type </label><br>
+    
+            <input type="checkbox" id="comedy" name="film1" value="comedy">
+            <label for="comedy">Comedy </label> <br>
+        
+
+            <input type="checkbox" id="action" name="film2" value="action">
+            <label for="action">Action</label><br>
+        
+
+            <input type="checkbox" id="rom" name="film3" value="romance">
+            <label for="rom">Romance</label><br><br>
+        </div>
+
+      <div>
+      <label> Gender </label> <br>
+      
+       <input type="radio" id="erkek" name="cinsiyet" value="Male">
+       <label for="erkek">Male</label><br>
+      
+      <input type="radio" id="kadın" name="cinsiyet" value="Female">
+      <label for="kadın">Female</label><br>
+      
+      <input type="radio" id="none" name="cinsiyet" value="Other">
+      <label for="none">Other</label><br><br><br>
+      </div>
+       
+      <div>
+          <label for="yorum">Feedback</label>
+          <br />
+          <textarea style="color: black" class="genis"
+            name="yorum"
+            id="yorum"
+            rows="5"
+            style="resize: none"
+            maxlength="100"
+            placeholder="Any comment"
+          ></textarea>
+        </div>
+        <div class="send">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </section>
+
+    </main>
+  </body>
+</html>
